@@ -47,7 +47,6 @@ public class UserController {
         userValidator.validate(userForm, bindingResult);
 
         logger.info("Registering the user:{}",userForm.getUsername());
-        logger.debug("Registering the user with debug:{}",userForm.getUsername());
         if (bindingResult.hasErrors()) {
             return "registration";
         }

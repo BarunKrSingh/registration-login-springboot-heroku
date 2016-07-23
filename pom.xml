@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.deloitte</groupId>
-    <artifactId>registration-login-springboot-maven</artifactId>
+    <artifactId>registration-login-springboot-heroku</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>registration-login-springboot-maven</name>
+    <name>registration-login-springboot-heroku</name>
     <description>Registration And Login Application With Spring Boot</description>
 
     <parent>
