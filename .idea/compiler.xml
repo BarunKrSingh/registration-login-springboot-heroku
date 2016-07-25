@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="registration-login-springboot-heroku" />
         <module name="registration-login-springboot-maven" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="registration-login-springboot-heroku" target="1.7" />
       <module name="registration-login-springboot-maven" target="1.7" />
     </bytecodeTargetLevel>
   </component>
